@@ -2,11 +2,14 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-# def roll
-#   1 + rand(6)
-# end
 
-# OR 
+# first_method
+
+#   def roll
+#     1 + rand(6)
+#   end
+
+# OR second_method
 
 def roll
   die = *(1..6)
