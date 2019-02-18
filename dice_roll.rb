@@ -2,6 +2,16 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
+
+# first_method
+
+#   def roll
+#     1 + rand(6)
+#   end
+
+# OR second_method
+
 def roll
-  # code goes here
+  die = *(1..6)
+  die[rand(7)]
 end
