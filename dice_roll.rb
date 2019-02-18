@@ -10,5 +10,5 @@
 
 def roll
   die = [(1..6)]
-  die[(rand(7)]
+  die[(rand(7))]
 end
