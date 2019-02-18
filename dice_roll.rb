@@ -9,4 +9,6 @@
 # OR 
 
 def roll
-  die = 
+  die = [(1..6)]
+  die[(rand(7)]
+end
